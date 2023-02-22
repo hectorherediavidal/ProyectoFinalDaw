@@ -10,7 +10,7 @@
 }
 
 .cajaIntroduccion{
-    width: 85%;
+    width: 84%;
     padding-left: 8px;
     padding-right: 8px;
     height: 28rem;
@@ -23,4 +23,60 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+// LOGIN
+
+.loginMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.loginCaja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 84%;
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 19rem;
+    border-radius: 10px;
+    background-color: map-get($colores, colorCaja);
+}
+
+
+
+
+.crearCuenta{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 10px;
+    width: 84%;
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 6rem;
+    background-color: map-get($colores, colorCaja);
+}
+
+.crearCuentaParrafo{
+    font-family: "tipografia";
+    color: black;
+    font-size: 30px;
+    margin-top: -5px;
+}
+
+.crearCuentaEnlace{
+    color: red;
+    margin-top: -20px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "tipografia";
+
 }

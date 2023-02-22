@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* ********* */
 /* @NORMALIZE */
 /* ********* */
@@ -411,6 +412,125 @@ body {
 /* ********* */
 /* @FORMS */
 /* ********* */
+.loginFormulario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.loginEmail {
+  margin-top: 20px;
+  padding: 3px 5px;
+  padding-left: 70px;
+  width: 200px;
+  height: 35px;
+  background: url(../assets/img/svg/iconoCorreo.svg) no-repeat;
+  background-size: 35px;
+  background-position: 15px center;
+  margin-bottom: 40px;
+  border: 3px solid black;
+}
+
+.loginEmail::-webkit-input-placeholder {
+  color: black;
+  font-family: "tipografia";
+  opacity: 40%;
+}
+
+.loginEmail::-moz-placeholder {
+  color: black;
+  font-family: "tipografia";
+  opacity: 40%;
+}
+
+.loginEmail:-ms-input-placeholder {
+  color: black;
+  font-family: "tipografia";
+  opacity: 40%;
+}
+
+.loginEmail::-ms-input-placeholder {
+  color: black;
+  font-family: "tipografia";
+  opacity: 40%;
+}
+
+.loginEmail::placeholder {
+  color: black;
+  font-family: "tipografia";
+  opacity: 40%;
+}
+
+.loginContraseña {
+  padding: 3px 5px;
+  padding-left: 70px;
+  width: 200px;
+  height: 35px;
+  background: url(../assets/img/svg/iconoLlave.svg) no-repeat;
+  background-size: 40px;
+  background-position: 13px center;
+  border: 3px solid black;
+}
+
+.loginContraseña::-webkit-input-placeholder {
+  color: black;
+  font-family: "tipografia";
+  opacity: 40%;
+}
+
+.loginContraseña::-moz-placeholder {
+  color: black;
+  font-family: "tipografia";
+  opacity: 40%;
+}
+
+.loginContraseña:-ms-input-placeholder {
+  color: black;
+  font-family: "tipografia";
+  opacity: 40%;
+}
+
+.loginContraseña::-ms-input-placeholder {
+  color: black;
+  font-family: "tipografia";
+  opacity: 40%;
+}
+
+.loginContraseña::placeholder {
+  color: black;
+  font-family: "tipografia";
+  opacity: 40%;
+}
+
+.olvidarContraseña {
+  margin-left: 90px;
+  margin-top: 20px;
+  color: black;
+  font-family: "tipografia";
+  font-size: 14px;
+}
+
+.loginEnviar {
+  margin-top: 30px;
+  border-radius: 20px;
+  width: 150px;
+  height: 50px;
+  background-color: transparent;
+  border: 3px solid black;
+  font-family: "tipografia";
+  font-size: 24px;
+}
+
 /* ********* */
 /* @GRID*/
 /* ********* */
@@ -430,7 +550,7 @@ body {
 }
 
 .cajaIntroduccion {
-  width: 85%;
+  width: 84%;
   padding-left: 8px;
   padding-right: 8px;
   height: 28rem;
@@ -449,6 +569,82 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.loginMain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.loginCaja {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 84%;
+  padding-left: 8px;
+  padding-right: 8px;
+  height: 19rem;
+  border-radius: 10px;
+  background-color: #D9D9D9;
+}
+
+.crearCuenta {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 10px;
+  width: 84%;
+  padding-left: 8px;
+  padding-right: 8px;
+  height: 6rem;
+  background-color: #D9D9D9;
+}
+
+.crearCuentaParrafo {
+  font-family: "tipografia";
+  color: black;
+  font-size: 30px;
+  margin-top: -5px;
+}
+
+.crearCuentaEnlace {
+  color: red;
+  margin-top: -20px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "tipografia";
 }
 
 /* ********* */
