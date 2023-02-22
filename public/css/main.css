@@ -386,7 +386,7 @@ body {
 /* ********* */
 .footer {
   position: absolute;
-  bottom: 33px;
+  bottom: 17px;
   width: 100%;
 }
 
@@ -430,10 +430,10 @@ body {
 }
 
 .cajaIntroduccion {
-  width: 75%;
+  width: 85%;
   padding-left: 8px;
   padding-right: 8px;
-  height: 31rem;
+  height: 28rem;
   border-radius: 10px;
   background-color: #D9D9D9;
 }
