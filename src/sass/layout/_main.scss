@@ -1,0 +1,26 @@
+/* ********* */
+/* @MAIN */
+/* ********* */
+
+.main{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.cajaIntroduccion{
+    width: 84%;
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 31rem;
+    border-radius: 10px;
+    background-color: map-get($colores, colorCaja);
+}
+
+.sectionBotonEmpezar{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -2,3 +2,24 @@
 /* @FOOTER */
 /* ********* */
 
+.footer{
+    position: absolute;
+    bottom: 33px;
+    width: 100%;
+  }
+  
+  .footerIconos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .persona,
+  .new,
+  .contacto {
+    width: 40px;
+    height: 40px;
+    
+  }
+  
+  

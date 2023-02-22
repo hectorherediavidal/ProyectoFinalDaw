@@ -1,3 +1,18 @@
 /* ********* */
 /* @TYPOGRAPHY */
 /* ********* */
+@font-face {
+    font-family: 'tipografia';
+    src: url('../assets/font/Righteous-Regular.woff2') format('woff2'),
+         url('../assets/font/Righteous-Regular.woff') format('woff'),
+         url('../assets/font/Righteous-Regular.ttf')  format('truetype');
+         
+  }
+
+
+.introduccionTexto{
+    text-align: center;
+    font-size: 19px;
+    font-family:'tipografia';
+    padding:10px;
+}
