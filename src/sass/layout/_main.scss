@@ -160,3 +160,100 @@
     border: 3px solid black;
     background-color: map-get($colores, colorCaja);
 }
+
+// CUENTA
+
+
+.cuentaMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.circuloFoto{
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: map-get($colores, colorCaja);
+}
+
+
+.fotoPerfil{
+width: 100px;
+}
+
+
+.rectanguloNombre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 350px;
+    height: 80px;
+    background-color: map-get($colores, colorCaja);
+    border-radius: 10px;
+}
+
+.nombreUsuario{
+    font-family: "tipografia";
+    font-size: 40px;
+
+}
+.cambiarFoto{
+    font-family: "tipografia";
+    font-size: 25px;
+}
+
+.sectionTresFotos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.foto1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: map-get($colores, colorCaja);
+    margin-right: 10px;
+}
+
+.monstruo1{
+    width: 100px;
+}
+
+.foto2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: map-get($colores, colorCaja);
+    margin-right: 10px;
+}
+
+.monstruo2{
+    width: 80px;
+}
+
+.foto3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: map-get($colores, colorCaja);
+}
+
+.monstruo3{
+    width: 85px;
+}
