@@ -197,3 +197,36 @@
     color: black;
     
   }
+
+
+   // CONFIRMACION RECORDAR CONTRASEÑA
+
+   .recordarContraConfirmacionEmail {
+    padding: 3px 5px;
+    padding-left: 70px;
+    width: 200px;
+    height: 35px;
+    background: url(../assets/img/svg/iconoCorreo.svg) no-repeat;
+    background-size: 35px;
+    background-position: 15px center;
+    border: 3px solid black;
+  }
+  
+  .recordarContraConfirmacionEmail::placeholder {
+    color: black;
+    font-family: "tipografia";
+    opacity: 40%;
+  }
+
+
+  .recordarContraConfirmacionEnviar {
+    margin-top: 10px;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    border: 3px solid black;
+    font-family: "tipografia";
+    font-size: 24px;
+    
+  }
