@@ -333,7 +333,7 @@ template {
 }
 .introduccionTexto {
   text-align: center;
-  font-size: 19px;
+  font-size: 16px;
   font-family: "tipografia";
   padding: 10px;
 }
@@ -662,7 +662,7 @@ template {
 /* @FOOTER */
 /* ********* */
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 0px;
   width: 100%;
   padding-top: 50px;
@@ -807,7 +807,7 @@ template {
 }
 
 .loginEnviar {
-  margin-top: 30px;
+  margin-top: 10px;
   border-radius: 20px;
   width: 150px;
   height: 50px;
@@ -842,8 +842,8 @@ template {
   background: url(../assets/img/svg/iconoPersona.svg) no-repeat;
   background-size: 35px;
   background-position: 15px center;
-  margin-top: 15px;
-  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   border: 3px solid black;
 }
 
@@ -885,7 +885,7 @@ template {
   background: url(../assets/img/svg/iconoCorreo.svg) no-repeat;
   background-size: 35px;
   background-position: 15px center;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   border: 3px solid black;
 }
 
@@ -922,6 +922,7 @@ template {
 .registroContraseña {
   padding: 3px 5px;
   padding-left: 70px;
+  margin-bottom: 20px;
   width: 200px;
   height: 35px;
   background: url(../assets/img/svg/iconoLlave.svg) no-repeat;
@@ -961,7 +962,7 @@ template {
 }
 
 .registroEnviar {
-  margin-top: 30px;
+  margin-top: 10px;
   border-radius: 20px;
   width: 220px;
   height: 50px;
@@ -983,7 +984,7 @@ template {
 }
 
 .registroRepetirContraseña {
-  margin-top: 40px;
+  margin-bottom: 20px;
   padding: 3px 5px;
   padding-left: 70px;
   width: 200px;
@@ -1151,7 +1152,7 @@ template {
   width: 84%;
   padding-left: 8px;
   padding-right: 8px;
-  height: 28rem;
+  height: 24rem;
   border-radius: 10px;
   border: 3px solid black;
   background-color: #D9D9D9;
@@ -1203,7 +1204,7 @@ template {
   width: 100%;
   padding-left: 8px;
   padding-right: 8px;
-  height: 19rem;
+  height: 17rem;
   border-radius: 10px;
   border: 3px solid black;
   background-color: #D9D9D9;
@@ -1228,7 +1229,7 @@ template {
   width: 100%;
   padding-left: 8px;
   padding-right: 8px;
-  height: 6rem;
+  height: 4rem;
   background-color: #D9D9D9;
   border: 3px solid black;
 }
@@ -1236,7 +1237,7 @@ template {
 .crearCuentaParrafo {
   font-family: "tipografia";
   color: black;
-  font-size: 30px;
+  font-size: 24px;
   margin-top: -5px;
 }
 
@@ -1244,7 +1245,7 @@ template {
   color: red;
   margin-top: -20px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 20px;
   font-family: "tipografia";
 }
 
@@ -1281,7 +1282,7 @@ template {
   width: 84%;
   padding-left: 8px;
   padding-right: 8px;
-  height: 27rem;
+  height: 22.5rem;
   background-color: #D9D9D9;
   border: 3px solid black;
   border-radius: 10px;
