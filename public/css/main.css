@@ -600,6 +600,7 @@ template {
       -ms-flex-direction: column;
           flex-direction: column;
   height: 100vh;
+  width: 100vw;
 }
 
 .header {
@@ -662,6 +663,7 @@ template {
   position: sticky;
   bottom: 0px;
   width: 100%;
+  padding-top: 50px;
 }
 
 .footerIconos {
