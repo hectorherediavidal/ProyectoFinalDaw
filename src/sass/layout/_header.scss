@@ -4,10 +4,9 @@
 .azulContainer {
   background-color: map-get($colores, azul);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  width: 100vw;
   height: 100vh;
 
 }
