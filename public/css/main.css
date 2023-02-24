@@ -1485,12 +1485,7 @@ template {
 }
 
 .aplicacionBody {
-  width: 100vw;
-  height: 100vh;
-  background-image: -webkit-gradient(linear, left bottom, right top, from(#5a48d3), color-stop(#006de7), color-stop(#0089ec), color-stop(#00a1e8), color-stop(#00b5e0), color-stop(#00beda), color-stop(#00c7d0), color-stop(#00cec1), color-stop(#00ceac), color-stop(#00cd8f), color-stop(#00ca6c), to(#1bc641));
-  background-image: linear-gradient(to right top, #5a48d3, #006de7, #0089ec, #00a1e8, #00b5e0, #00beda, #00c7d0, #00cec1, #00ceac, #00cd8f, #00ca6c, #1bc641);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: blue;
 }
 
 .aplicacionMain {
@@ -1557,7 +1552,7 @@ template {
   color: white;
   font-size: 30px;
   font-family: "tipografia";
-  margin-top: 10px;
+  margin-top: 80px;
   text-shadow: 0px 2px 10px rgb(0, 0, 0);
 }
 
