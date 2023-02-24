@@ -535,7 +535,7 @@ template {
   z-index: -1;
   filter: blur(5px);
   -webkit-filter: blur(5px);
-  width: calc(100% + 4px);
+  width: 102%;
   height: 105%;
   -webkit-animation: glowing-button-85 20s linear infinite;
           animation: glowing-button-85 20s linear infinite;
