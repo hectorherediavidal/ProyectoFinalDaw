@@ -1,37 +1,51 @@
 /* ********* */
 /* @HEADER */
 /* ********* */
-body {
-    background-color: map-get($colores, azul);
-  }
-  
-  .header {
-    display: flex;
-    justify-content: center;
-  }
+.azulBody {
+  background-color: map-get($colores, azul);
+}
 
-  .excussImagen{
-    width: 170px;
-  }
+.header {
+  display: flex;
+  justify-content: center;
+}
 
+.excussImagen {
+  width: 170px;
+}
 
 // REGISTRO
 
-.excussPequeñoRegistro{
+.excussPequeñoRegistro {
   width: 140px;
 }
 
-
 // CUENTA
 
-.headerCuenta{
+.headerCuenta {
   display: flex;
   justify-content: end;
   align-items: center;
 }
 
-
-.iconoCerrarSesion{
+.iconoCerrarSesion {
   margin-left: 80%;
-  
+}
+
+
+// APLICACION
+
+.headerAplicacion{
+  display: flex;
+}
+
+.excussImagenAplicacion {
+  width: 70px;
+}
+
+
+.fotoPerfilAplicacion{
+  width: 70px;
+  margin-left: 65%;
+  filter: invert(100%);
 }

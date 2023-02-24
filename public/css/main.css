@@ -492,13 +492,100 @@ template {
   background-color: #D9D9D9;
 }
 
+.botonArcoiris {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 70px;
+  width: 200px;
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  float: center;
+  font-family: "tipografia";
+  font-size: 25px;
+}
+
+.botonArcoiris:before {
+  content: "";
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  -webkit-animation: glowing-button-85 20s linear infinite;
+          animation: glowing-button-85 20s linear infinite;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@-webkit-keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+.botonArcoiris:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
 /* ********* */
 /* @BANNER */
 /* ********* */
 /* ********* */
 /* @HEADER */
 /* ********* */
-body {
+.azulBody {
   background-color: #00BEDA;
 }
 
@@ -535,6 +622,23 @@ body {
   margin-left: 80%;
 }
 
+.headerAplicacion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.excussImagenAplicacion {
+  width: 70px;
+}
+
+.fotoPerfilAplicacion {
+  width: 70px;
+  margin-left: 65%;
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
 /* ********* */
 /* @NAVIGATOR */
 /* ********* */
@@ -563,6 +667,15 @@ body {
 .contacto {
   width: 40px;
   height: 40px;
+}
+
+.footerPersona,
+.footerNew,
+.footerContacto {
+  width: 40px;
+  height: 40px;
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
 }
 
 /* ********* */
@@ -1369,6 +1482,104 @@ body {
 
 .monstruo3 {
   width: 85px;
+}
+
+.aplicacionBody {
+  width: 100%;
+  height: 100vh;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#5a48d3), color-stop(#006de7), color-stop(#0089ec), color-stop(#00a1e8), color-stop(#00b5e0), color-stop(#00beda), color-stop(#00c7d0), color-stop(#00cec1), color-stop(#00ceac), color-stop(#00cd8f), color-stop(#00ca6c), to(#1bc641));
+  background-image: linear-gradient(to right top, #5a48d3, #006de7, #0089ec, #00a1e8, #00b5e0, #00beda, #00c7d0, #00cec1, #00ceac, #00cd8f, #00ca6c, #1bc641);
+}
+
+.aplicacionMain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.tituloAplicacion {
+  font-family: "tipografia";
+  color: white;
+  font-size: 27px;
+  text-shadow: 0px 2px 10px rgb(0, 0, 0);
+}
+
+.subtituloAplicacion {
+  text-align: center;
+  font-family: "tipografia";
+  color: white;
+  font-size: 20px;
+}
+
+.excusa {
+  color: white;
+  font-size: 50px;
+  font-family: "tipografia";
+  opacity: 0;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes aparecer {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes aparecer {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.daleBoton {
+  color: white;
+  font-size: 30px;
+  font-family: "tipografia";
+  margin-top: 80px;
+  text-shadow: 0px 2px 10px rgb(0, 0, 0);
+}
+
+.flechaBoton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flecha {
+  margin-top: -20px;
+  -webkit-filter: invert(100%) drop-shadow(0px 3px 4px rgb(0, 0, 0));
+          filter: invert(100%) drop-shadow(0px 3px 4px rgb(0, 0, 0));
+  width: 50px;
 }
 
 /* ********* */
