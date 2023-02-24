@@ -38,7 +38,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 84%;
+  width: 100%;
   padding-left: 8px;
   padding-right: 8px;
   height: 19rem;
@@ -54,7 +54,7 @@
   margin-top: 20px;
   display: flex;
   border-radius: 10px;
-  width: 84%;
+  width: 100%;
   padding-left: 8px;
   padding-right: 8px;
   height: 6rem;
@@ -243,23 +243,7 @@
 
 // APLICACION
 .container{
-    width: 100vw;
-  height: 100vh;
-  background-image: linear-gradient(
-    to right top,
-    #5a48d3,
-    #006de7,
-    #0089ec,
-    #00a1e8,
-    #00b5e0,
-    #00beda,
-    #00c7d0,
-    #00cec1,
-    #00ceac,
-    #00cd8f,
-    #00ca6c,
-    #1bc641
-  );
+    
 }
 .aplicacionMain {
   display: flex;
