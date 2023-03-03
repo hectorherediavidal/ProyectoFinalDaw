@@ -17,7 +17,13 @@
   align-items: center;
 }
 
+.pictureExcuss{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .excussImagen {
+ 
   width: 80%;
 }
 
@@ -30,14 +36,13 @@
 // CUENTA
 
 .headerCuenta {
+  width: 100%;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
 }
 
-.iconoCerrarSesion {
-  margin-left: 80%;
-}
+
 
 
 // APLICACION

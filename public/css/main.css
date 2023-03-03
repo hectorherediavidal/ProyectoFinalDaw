@@ -488,7 +488,7 @@ template {
   height: 40px;
   border-radius: 20px;
   border: 3px solid black;
-  margin-top: 50px;
+  margin-top: 25px;
   background-color: #D9D9D9;
 }
 
@@ -614,6 +614,18 @@ template {
           align-items: center;
 }
 
+.pictureExcuss {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .excussImagen {
   width: 80%;
 }
@@ -623,19 +635,16 @@ template {
 }
 
 .headerCuenta {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
-          justify-content: end;
+          justify-content: flex-end;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.iconoCerrarSesion {
-  margin-left: 80%;
 }
 
 .headerAplicacion {
@@ -1450,8 +1459,8 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   background-color: #D9D9D9;
   margin-right: 10px;
@@ -1471,8 +1480,8 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   background-color: #D9D9D9;
   margin-right: 10px;
@@ -1492,14 +1501,14 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   background-color: #D9D9D9;
 }
 
 .monstruo3 {
-  width: 85px;
+  width: 80px;
 }
 
 .aplicacionMain {
