@@ -49,6 +49,8 @@
 
 .headerAplicacion{
   display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .excussImagenAplicacion {
@@ -58,6 +60,6 @@
 
 .fotoPerfilAplicacion{
   width: 70px;
-  margin-left: 65%;
+  
   filter: invert(100%);
 }
