@@ -1165,6 +1165,7 @@ template {
   border-radius: 10px;
   border: 3px solid black;
   background-color: #D9D9D9;
+  margin-top: 30px;
 }
 
 .sectionBotonEmpezar {
@@ -1463,7 +1464,7 @@ template {
   height: 100px;
   border-radius: 50%;
   background-color: #D9D9D9;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .monstruo1 {
@@ -1484,7 +1485,7 @@ template {
   height: 100px;
   border-radius: 50%;
   background-color: #D9D9D9;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .monstruo2 {
