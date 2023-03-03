@@ -1141,6 +1141,165 @@ template {
   font-size: 24px;
 }
 
+.contactoFormulario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contactoNombre {
+  padding: 3px 5px;
+  padding-left: 70px;
+  width: 200px;
+  height: 35px;
+  background: url(../assets/img/svg/iconoPersona.svg) no-repeat;
+  background-size: 35px;
+  background-position: 15px center;
+  border: 3px solid black;
+}
+
+.contactoNombre::-webkit-input-placeholder {
+  color: black;
+  font-family: "tipografia";
+  opacity: 40%;
+}
+
+.contactoNombre::-moz-placeholder {
+  color: black;
+  font-family: "tipografia";
+  opacity: 40%;
+}
+
+.contactoNombre:-ms-input-placeholder {
+  color: black;
+  font-family: "tipografia";
+  opacity: 40%;
+}
+
+.contactoNombre::-ms-input-placeholder {
+  color: black;
+  font-family: "tipografia";
+  opacity: 40%;
+}
+
+.contactoNombre::placeholder {
+  color: black;
+  font-family: "tipografia";
+  opacity: 40%;
+}
+
+.contactoEmail {
+  padding: 3px 5px;
+  padding-left: 70px;
+  width: 200px;
+  height: 35px;
+  background: url(../assets/img/svg/iconoCorreo.svg) no-repeat;
+  background-size: 35px;
+  background-position: 15px center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 3px solid black;
+}
+
+.contactoEmail::-webkit-input-placeholder {
+  color: black;
+  font-family: "tipografia";
+  opacity: 40%;
+}
+
+.contactoEmail::-moz-placeholder {
+  color: black;
+  font-family: "tipografia";
+  opacity: 40%;
+}
+
+.contactoEmail:-ms-input-placeholder {
+  color: black;
+  font-family: "tipografia";
+  opacity: 40%;
+}
+
+.contactoEmail::-ms-input-placeholder {
+  color: black;
+  font-family: "tipografia";
+  opacity: 40%;
+}
+
+.contactoEmail::placeholder {
+  color: black;
+  font-family: "tipografia";
+  opacity: 40%;
+}
+
+.contactoEnviar {
+  border-radius: 20px;
+  width: 220px;
+  height: 50px;
+  background-color: transparent;
+  border: 3px solid black;
+  font-family: "tipografia";
+  font-size: 24px;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.contactoTextarea {
+  resize: none;
+  width: 92.5%;
+  height: 170px;
+  padding: 10px;
+}
+
+.contactoTextarea::-webkit-input-placeholder {
+  color: black;
+  font-family: "tipografia";
+  opacity: 40%;
+}
+
+.contactoTextarea::-moz-placeholder {
+  color: black;
+  font-family: "tipografia";
+  opacity: 40%;
+}
+
+.contactoTextarea:-ms-input-placeholder {
+  color: black;
+  font-family: "tipografia";
+  opacity: 40%;
+}
+
+.contactoTextarea::-ms-input-placeholder {
+  color: black;
+  font-family: "tipografia";
+  opacity: 40%;
+}
+
+.contactoTextarea::placeholder {
+  color: black;
+  font-family: "tipografia";
+  opacity: 40%;
+}
+
 /* ********* */
 /* @GRID*/
 /* ********* */
@@ -1658,6 +1817,45 @@ template {
   font-size: 16px;
   font-family: "tipografia";
   padding: 10px;
+}
+
+.contactoMain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contactoCaja {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  padding-left: 8px;
+  padding-right: 8px;
+  height: 27rem;
+  background-color: #D9D9D9;
+  border: 3px solid black;
+  border-radius: 10px;
 }
 
 /* ********* */

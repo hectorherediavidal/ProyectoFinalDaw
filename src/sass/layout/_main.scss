@@ -351,3 +351,29 @@
     font-family:'tipografia';
     padding:10px;
 }
+
+
+
+// CONTACTO
+
+
+.contactoMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contactoCaja {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 8px;
+  padding-right: 8px;
+  height: 27rem;
+  background-color: map-get($colores, colorCaja);
+  border: 3px solid black;
+  border-radius: 10px;
+}
