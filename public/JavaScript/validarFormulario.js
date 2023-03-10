@@ -45,24 +45,7 @@ function validarFormulario() {
       return false;
     }
   
-    // //   CAMPO DNI
-  
-    // const dni = document.getElementById("dni").value.toUpperCase();
-  
-    // if (dni == null || dni == "") {
-    //   alert("El campo DNI está vacio");
-    //   return false;
-    // }
-    // if (/^[0-9]{8}[A-Z]$/.test(dni)) {
-    //   const letras = "TRWAGMYFPDXBNJZSQVHLCKE";
-    //   const letra = letras.charAt(parseInt(dni.substring(0, 8)) % 23);
-    //   if (letra === dni.charAt(8)) {
-    //   } else {
-    //     alert("El número de DNI no es válido.");
-    //   }
-    // } else {
-    //   alert("El número de DNI no tiene el formato correcto.");
-    // }
+    
   
     // alert("El formulario es correcto");
     // return true;

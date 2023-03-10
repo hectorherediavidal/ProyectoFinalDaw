@@ -1717,16 +1717,13 @@ template {
 }
 
 .excusa {
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
   color: white;
-  font-size: 50px;
+  font-size: 30px;
   font-family: "tipografia";
   opacity: 0;
-  -webkit-animation-name: aparecer;
-          animation-name: aparecer;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
 }
 
 @-webkit-keyframes aparecer {
