@@ -275,7 +275,9 @@
   font-size: 30px;
   font-family: "tipografia";
   opacity: 0;
- 
+  animation-name: aparecer;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
 }
 
 @keyframes aparecer {

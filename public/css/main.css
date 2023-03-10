@@ -1724,6 +1724,12 @@ template {
   font-size: 30px;
   font-family: "tipografia";
   opacity: 0;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 
 @-webkit-keyframes aparecer {
