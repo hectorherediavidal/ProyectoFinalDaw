@@ -45,8 +45,42 @@ function validarFormulario() {
       return false;
     }
   
+    // CAMPO CONTRASEÑA
+
+    let contraseña = document.getElementById("registroContraseña").value;
+
+    if (contraseña == null || contraseña == "") {
+        alert("El campo contraseña está vacio");
+        return false;
+      }
+
+     if (!/^[a-zA-Z0-9]+$/.test(contraseña)) {
+        alert("La contraseña solo puede contener letras y números");
+        return false;
+      }
     
+
+      if(!/^[a-zA-Z0-9]+$/.test(contraseña)) {
+        alert("La contraseña solo puede contener letras y números");
+        return false;
+      }
+      
+      
+
+      if (contraseña.length>10) {
+        alert("La contraseña que has introducido es muy larga, solo puede contener 10 caracteres");
+        return false;
+      }
   
+
+    //   CAMPO REPETIR CONTRASEÑA
+
+    let repetirContraseña = document.getElementById("registroRepetirContraseña").value;
+
+    if(repetirContraseña!=contraseña) {
+        alert("Las contraseñas no coinciden")
+        return false;
+    }
     // alert("El formulario es correcto");
     // return true;
   }

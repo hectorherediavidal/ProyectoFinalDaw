@@ -26,11 +26,11 @@
     </header>
     <main class="registroMain">
         <section class="registroCaja">
-         <form action="" class="registroFormulario" method="" id="registroFormulario" onsubmit="return validarFormulario()">
-            <input type="text" class="registroNombre" id="registroNombre" placeholder="NOMBRE">
-            <input type="text" class="registroEmail" placeholder="CORREO" id="registroCorreo">
-            <input type="password" class="registroContraseña" placeholder="CONTRASEÑA">
-            <input type="password" class="registroRepetirContraseña" placeholder="REPETIR CONTRASEÑA">
+         <form action="../php/recogerDatosRegistro.php" class="registroFormulario" method="post" id="registroFormulario" onsubmit="return validarFormulario()">
+            <input type="text" class="registroNombre" id="registroNombre" placeholder="NOMBRE" name="registroNombre">
+            <input type="text" class="registroEmail" placeholder="CORREO" id="registroCorreo" name="registroCorreo">
+            <input type="password" class="registroContraseña" id="registroContraseña" placeholder="CONTRASEÑA" name="registroContraseña">
+            <input type="password" class="registroRepetirContraseña" id="registroRepetirContraseña" placeholder="REPETIR CONTRASEÑA">
             <button type="submit" class="registroEnviar">REGISTRARSE</button>
          </form>
          
