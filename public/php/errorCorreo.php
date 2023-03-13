@@ -39,7 +39,7 @@
 </head>
 
 <body>
-    <h1>El correo que has introducido ya existe, por favor escribe un correo distinto</h1>
+    <h1>El correo que has introducido ya esta registrado, por favor escribe un correo distinto</h1>
 
     <a href="../paginasHTML/registro.html">Volver al registro</a>
 </body>

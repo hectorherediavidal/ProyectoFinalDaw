@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/main.css"/>
+    <script src="../JavaScript/validarFormularioLogin.js"></script>
     <title>ExcuseParadise</title>
 </head>
 <body class="azulContainer">
@@ -26,11 +27,11 @@
     </header>
     <main class="loginMain">
         <section class="loginCaja">
-         <form action="cuenta.html" class="loginFormulario" method="">
-            <input type="email" class="loginEmail" placeholder="CORREO">
-            <input type="text" class="loginContraseña" placeholder="CONTRASEÑA">
+         <form action="../php/comprobarCuenta.php" class="loginFormulario" method="post" onsubmit="return validarFormularioLogin()">
+            <input type="email" class="loginEmail" placeholder="CORREO" id="loginCorreo" name="loginCorreo">
+            <input type="password" class="loginContraseña" placeholder="CONTRASEÑA" id="loginContraseña" name="loginContraseña">
             <a href="recordarContra.html" class="olvidarContraseña">Has olvidado la contraseña?</a>
-            <button type="submit" class="loginEnviar" >ENTRAR</button>
+            <button type="submit" class="loginEnviar">ENTRAR</button>
          </form>
          
         </section>

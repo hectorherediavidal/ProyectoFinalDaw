@@ -63,7 +63,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
       header('Location: ./errorCorreo.php');
   } else {
 
-$insercion = "INSERT INTO  usuarios(nombre, contraseña, correo) VALUES ( '$nombre', '$contraseña','$correo');";
+$insercion = "INSERT INTO  usuarios(nombre, contrasena, correo) VALUES ( '$nombre', '$contraseña','$correo');";
 $resultado = $conector->query($sentencia);
 header('Location: ../paginasHTML/login.html');
   }
