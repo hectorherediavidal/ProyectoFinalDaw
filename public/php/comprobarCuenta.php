@@ -19,24 +19,24 @@ try{
 }
 
 // Consultar la base de datos utilizando consultas preparadas para evitar inyección SQL
-$stmt = $conector->prepare("SELECT * FROM usuarios WHERE correo = :correo AND contrasena = :contrasena");
-$stmt->bindParam(':correo', $correo);
-$stmt->bindParam(':contrasena', $contraseña);
-$stmt->execute();
+$consulta = $conector->prepare("SELECT * FROM usuarios WHERE correo = :correo AND contrasena = :contrasena");
+$consulta->bindParam(':correo', $correo);
+$consulta->bindParam(':contrasena', $contraseña);
+$consulta->execute();
 
 // Verificar si se encontró una coincidencia
-if ($stmt->rowCount() == 1) {
+if ($consulta->rowCount() == 1) {
+    $fila = $consulta->fetch(PDO::FETCH_ASSOC);
+    $usuario=$fila['nombre'];
   // El usuario inició sesión correctamente, puede redirigir a la página de inicio
   session_start();
-  $usuario = $stmt->fetch(PDO::FETCH_ASSOC);
-  $_SESSION["id"] = $usuario["id"];
-  $_SESSION["nombre"] = $usuario["nombre"];
-  $_SESSION["email"] = $usuario["email"];
-  header("Location: ../paginasHTML/cuenta.html");
+  $_SESSION['usuario'] = $usuario;
+  header("Location: ./cuenta.php");
+
 } else {
   // Las credenciales de inicio de sesión son incorrectas, mostrar un mensaje de error
   echo "Correo electrónico o contraseña incorrectos";
 }
 
-$conn = null;
+$conector = null;
 ?>
