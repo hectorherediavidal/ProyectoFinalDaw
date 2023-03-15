@@ -347,6 +347,8 @@ template {
     width: 84%;
   }
   .mitadIzquierda {
+    width: 100%;
+    height: 110vh;
     background-color: #00BEDA;
   }
 }
