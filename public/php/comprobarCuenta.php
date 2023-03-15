@@ -31,6 +31,7 @@ if ($consulta->rowCount() == 1) {
   // El usuario inició sesión correctamente, puede redirigir a la página de inicio
   session_start();
   $_SESSION['usuario'] = $usuario;
+  $_SESSION['correo'] = $correo;
   header("Location: ./cuenta.php");
 
 } else {

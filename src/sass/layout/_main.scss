@@ -183,6 +183,12 @@
   width: 100px;
 }
 
+.sectionNombreUsuario{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
 .rectanguloNombre {
   display: flex;
   justify-content: center;
@@ -192,11 +198,17 @@
   height: 80px;
   background-color: map-get($colores, colorCaja);
   border-radius: 10px;
+  
+  
 }
 
 .nombreUsuario {
+  
   font-family: "tipografia";
   font-size: 40px;
+  position: absolute;
+  
+  
 }
 .cambiarFoto {
   font-family: "tipografia";
@@ -250,6 +262,12 @@
 
 .monstruo3 {
   width: 80px;
+}
+
+.iconoLapiz{
+  
+  margin-left: 150px;
+  margin-top: 3px;
 }
 
 // APLICACION

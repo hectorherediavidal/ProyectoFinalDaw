@@ -26,6 +26,7 @@
             </div>
         </section>
 
+        <section class="sectionNombreUsuario">
         <div class="rectanguloNombre">
 
             <p class="nombreUsuario">
@@ -35,7 +36,14 @@
                 echo $_SESSION['usuario'];
                 ?>
             </p>
+            
+            </p>
+            <a href="./cambiarNombre.php" class="iconoLapiz">
+                    <img src="../assets/img/svg/lapiz.svg" alt="icono_lapiz" class="iconoLapiz">
+                </a>
         </div>
+       
+        </section>
 
         <p class="cambiarFoto">¿Quieres cambiar tu foto?</p>
         <section class="sectionTresFotos">
@@ -49,6 +57,7 @@
                 <img src="../assets/img/smartphone/monster4.webp" alt="monstruo3" class="monstruo3">
             </div>
         </section>
+        
         <a href="../paginasHTML/aplicacion.html" class="botonJugar">JUGAR</a>
     </main>
 

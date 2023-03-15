@@ -1756,6 +1756,18 @@ template {
   width: 100px;
 }
 
+.sectionNombreUsuario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .rectanguloNombre {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1776,6 +1788,7 @@ template {
 .nombreUsuario {
   font-family: "tipografia";
   font-size: 40px;
+  position: absolute;
 }
 
 .cambiarFoto {
@@ -1851,6 +1864,11 @@ template {
 
 .monstruo3 {
   width: 80px;
+}
+
+.iconoLapiz {
+  margin-left: 150px;
+  margin-top: 3px;
 }
 
 .aplicacionMain {
