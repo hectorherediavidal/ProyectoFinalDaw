@@ -2,9 +2,17 @@
 /* @MAIN */
 /* ********* */
 
+.prueba{
+  background-color: green;
+  width: 50%;
+  height: 100vh;
+}
+
+
 .main {
   display: flex;
   justify-content: center;
+  
 }
 
 .cajaIntroduccion {
@@ -17,6 +25,8 @@
   background-color: map-get($colores, colorCaja);
   margin-top: 30px;
 }
+
+
 
 .sectionBotonEmpezar {
   margin-top: 30px;
@@ -39,10 +49,10 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 100%;
+  
   padding-left: 8px;
   padding-right: 8px;
-  height: 17rem;
+  height: 19rem;
   border-radius: 10px;
   border: 3px solid black;
   background-color: map-get($colores, colorCaja);
@@ -55,10 +65,10 @@
   margin-top: 20px;
   display: flex;
   border-radius: 10px;
-  width: 100%;
+  
   padding-left: 8px;
   padding-right: 8px;
-  height: 4rem;
+  height: 6rem;
   background-color: map-get($colores, colorCaja);
   border: 3px solid black;
 }
@@ -92,10 +102,10 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 84%;
+  
   padding-left: 8px;
   padding-right: 8px;
-  height: 22.5rem;
+  height: 24rem;
   background-color: map-get($colores, colorCaja);
   border: 3px solid black;
   border-radius: 10px;
@@ -272,7 +282,7 @@
   margin-left: 20px;
   margin-right: 20px;
   color: white;
-  font-size: 30px;
+  font-size: 20px;
   font-family: "tipografia";
   opacity: 0;
   animation-name: aparecer;

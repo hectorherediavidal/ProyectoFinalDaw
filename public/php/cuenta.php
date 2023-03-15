@@ -11,7 +11,13 @@
 
 <body class="azulContainer">
     <header class="headerCuenta">
-        <img src="../assets/img/svg/iconoCerrarSesion.svg" alt="icono perfil" class="iconoCerrarSesion" />
+    <a href="../php/cerrarSesion.php">
+        <img
+          src="../assets/img/svg/iconoCerrarSesion.svg"
+          alt="icono perfil"
+          class="iconoCerrarSesion"
+        />
+      </a>
     </header>
     <main class="cuentaMain">
         <section>
@@ -43,7 +49,7 @@
                 <img src="../assets/img/smartphone/monster4.webp" alt="monstruo3" class="monstruo3">
             </div>
         </section>
-        <a href="./aplicacion.html" class="botonJugar">JUGAR</a>
+        <a href="../paginasHTML/aplicacion.html" class="botonJugar">JUGAR</a>
     </main>
 
     <footer class="footer">

@@ -7,8 +7,29 @@
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  
+  padding-right: 20px;
+  padding-left: 20px;
 
+}
+
+.containerFormularios{
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.mitadIzquierda{
+  
+  height: 100vh;
+  
+}
+
+.mitadDerecha{
+  text-align: center;
+  
+  height: 100vh;
+  
 }
 
 .header {
@@ -23,6 +44,15 @@
   align-items: center;
 }
 .excussImagen {
+ 
+  width: 80%;
+}
+
+.excussImagen2 {
+ 
+  width: 80%;
+}
+.excussImagenForm {
  
   width: 80%;
 }

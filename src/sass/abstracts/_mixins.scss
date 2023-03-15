@@ -1,3 +1,91 @@
 /* ********* */
 /* @MIXINS */
 /* ********* */
+@media only screen and (max-width: 768px) {
+    /* Ocultar página de ordenador */
+    .mitadDerecha{
+        display: none;
+        background-color: map-get($colores, azul);
+    }
+
+    .tituloMitadIzquierda{
+        display: none;
+    }
+
+    .footerPC{
+        display: none;
+    }
+    /* Mostrar página de móvil */
+    .loginCaja{
+        width: 84%;
+    }
+
+    .registroCaja{
+        width: 84%;
+    }
+
+    .crearCuenta{
+        width: 84%;
+    }
+
+    .mitadIzquierda{
+        width: 100%;
+        
+        background-color: map-get($colores, azul);
+    }
+  
+  }
+  
+  /* Estilos para ordenadores */
+  @media only screen and (min-width: 769px) {
+    /* Ocultar página de móvil */
+    .loginFormulario {
+      width: 50%;
+    }
+
+    .loginCaja{
+        width: 65%;
+    }
+
+    .registroCaja{
+        width: 65%;
+    }
+    .crearCuenta{
+        width: 65%;
+    }
+
+    .excussImagenForm{
+        display: none;
+    }
+
+    
+
+    .footer{
+        display: none;
+    }
+
+    .header{
+        flex-direction: column;
+    }
+    /* Mostrar página de ordenador */
+    .mitadDerecha {
+      display: block;
+      width: 50%;
+      background-color: map-get($colores, azul);
+    }
+
+    .mitadIzquierda {
+        display: block;
+        width: 50%;
+        
+        background-color: map-get($colores, azulFormulario);
+      }
+
+    .tituloMitadIzquierda{
+        display: block;
+    }
+
+    .excussImagen{
+        margin-top: 100px;
+    }
+  }
