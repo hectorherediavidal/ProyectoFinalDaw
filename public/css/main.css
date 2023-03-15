@@ -347,7 +347,8 @@ template {
     width: 84%;
   }
   .mitadIzquierda {
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
     background-color: #00BEDA;
   }
 }
@@ -711,7 +712,7 @@ template {
 }
 
 .containerFormularios {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
