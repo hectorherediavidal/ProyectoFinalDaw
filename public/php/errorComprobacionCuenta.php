@@ -9,6 +9,7 @@
     <title>ExcuseParadise</title>
     <style>
         body {
+            text-align: center;
             background-color: #00BEDA;
             display: flex;
             align-items: center;
@@ -30,8 +31,8 @@
             margin-left: 30px;
             margin-right: 30px;
             margin-top: 20px;
-            padding: 20px;
-            width: 120px;
+            padding: 25px;
+            width: 150px;
             height: 10px;
             border-radius: 20px;
             border: 3px solid black;
@@ -44,19 +45,18 @@
     <picture class="pictureExcuss">
 
         <source srcset="../assets/img/smartphone/excuss1.webp 1x,
-                ../assets/img/smartphone/excuss1@2x.webp 2x,
-                ../assets/img/smartphone/excuss1@3x.webp 3x,
-                " />
+              ../assets/img/smartphone/excuss1@2x.webp 2x,
+              ../assets/img/smartphone/excuss1@3x.webp 3x,
+               " />
 
 
         <img src="" class="excussImagen" alt="Descripción de la imagen" />
     </picture>
 
     <!-- Error con los datos introducidos -->
+    <h1>Correo electrónico o contraseña incorrectos, porfavor vuelve al inicio de sesión e intentalo de nuevo</h1>
 
-    <h1>El correo que has introducido ya esta registrado, por favor escribe un correo distinto</h1>
-
-    <a href="../paginasHTML/registro.html">Volver a registro</a>
+    <a href="../paginasHTML/login.html">Volver a inicio de sesión</a>
 </body>
 
 </html>

@@ -336,6 +336,12 @@ template {
   .footerPC {
     display: none;
   }
+  .footerPC2 {
+    display: none;
+  }
+  .footerPC3 {
+    display: none;
+  }
   /* Mostrar página de móvil */
   .loginCaja {
     width: 84%;
@@ -346,10 +352,31 @@ template {
   .crearCuenta {
     width: 84%;
   }
+  .recordarContraCaja {
+    width: 84%;
+  }
+  .recordarContraConfirmacionCaja {
+    width: 84%;
+  }
+  .novedadesCaja {
+    width: 84%;
+  }
   .mitadIzquierda {
     width: 100%;
     height: 100vh;
     background-color: #00BEDA;
+  }
+  .circuloFoto {
+    margin-top: -30px;
+  }
+  .tituloAplicacion {
+    font-size: 26px;
+  }
+  .subtituloAplicacion {
+    font-size: 23px;
+  }
+  .excusa {
+    font-size: 20px;
   }
 }
 /* Estilos para ordenadores */
@@ -365,6 +392,15 @@ template {
     width: 65%;
   }
   .crearCuenta {
+    width: 65%;
+  }
+  .recordarContraConfirmacionCaja {
+    width: 65%;
+  }
+  .recordarContraCaja {
+    width: 65%;
+  }
+  .novedadesCaja {
     width: 65%;
   }
   .excussImagenForm {
@@ -395,6 +431,18 @@ template {
   }
   .excussImagen {
     margin-top: 100px;
+  }
+  .circuloFoto {
+    margin-top: 40px;
+  }
+  .tituloAplicacion {
+    font-size: 50px;
+  }
+  .subtituloAplicacion {
+    font-size: 40px;
+  }
+  .excusa {
+    font-size: 38px;
   }
 }
 /* ********* */
@@ -428,6 +476,7 @@ template {
   color: white;
   font-size: 40px;
   text-shadow: 0px 2px 10px rgb(0, 0, 0);
+  padding-top: 22px;
 }
 
 .tituloMitadIzquierda {
@@ -460,7 +509,6 @@ template {
   margin-top: 20px;
   font-family: "tipografia";
   font-size: 16px;
-  margin-top: 50px;
 }
 
 .recordarContraContactame {
@@ -595,7 +643,7 @@ template {
   height: 40px;
   border-radius: 20px;
   border: 3px solid black;
-  margin-top: 50px;
+  margin-top: 35px;
   background-color: #D9D9D9;
 }
 
@@ -840,8 +888,25 @@ template {
 .footerPC {
   position: fixed;
   top: -20px;
-  width: 100%;
+  width: 80%;
   padding-top: 50px;
+  margin-left: 45px;
+}
+
+.footerPC2 {
+  position: fixed;
+  top: -20px;
+  width: 80%;
+  padding-top: 50px;
+  margin-right: 111px;
+}
+
+.footerPC3 {
+  position: fixed;
+  top: -20px;
+  width: 80%;
+  padding-top: 50px;
+  margin-left: 156px;
 }
 
 .footerEnlaces {
@@ -856,18 +921,18 @@ template {
           align-items: center;
 }
 
-.inicioEnlace, .contactoEnlace {
+.inicioEnlace,
+.contactoEnlace {
   font-size: 20px;
   font-family: "tipografia";
   text-decoration: none;
   color: white;
   list-style: none;
   margin-left: 18%;
-  margin-right: 17.5%;
+  margin-right: 18%;
 }
 
 .novedadesEnlace {
-  margin-left: 40px;
   font-size: 20px;
   font-family: "tipografia";
   text-decoration: none;
@@ -1148,6 +1213,19 @@ template {
   color: black;
   font-family: "tipografia";
   opacity: 40%;
+}
+
+.recordarContraFormulario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .registroEnviar {
@@ -1639,6 +1717,12 @@ template {
   border-radius: 10px;
 }
 
+.flechita {
+  width: 60px;
+  height: 60px;
+  margin-bottom: -40px;
+}
+
 .recordarContraMain {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1672,7 +1756,6 @@ template {
       -ms-flex-direction: column;
           flex-direction: column;
   height: 25rem;
-  width: 84%;
   padding-left: 8px;
   padding-right: 8px;
   border: 3px solid black;
@@ -1711,8 +1794,7 @@ template {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 26rem;
-  width: 84%;
+  height: 27rem;
   padding-left: 8px;
   padding-right: 8px;
   border: 3px solid black;
@@ -1736,7 +1818,6 @@ template {
 }
 
 .circuloFoto {
-  margin-top: -30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1794,6 +1875,7 @@ template {
 .cambiarFoto {
   font-family: "tipografia";
   font-size: 25px;
+  text-align: center;
 }
 
 .sectionTresFotos {
@@ -1871,6 +1953,10 @@ template {
   margin-top: 3px;
 }
 
+.iconoCerrarSesion {
+  margin-right: -10px;
+}
+
 .aplicacionMain {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1890,23 +1976,21 @@ template {
 .tituloAplicacion {
   font-family: "tipografia";
   color: white;
-  font-size: 27px;
   text-shadow: 0px 2px 10px rgb(0, 0, 0);
+  text-align: center;
 }
 
 .subtituloAplicacion {
   text-align: center;
   font-family: "tipografia";
   color: white;
-  font-size: 20px;
 }
 
 .excusa {
   text-align: center;
   margin-left: 20px;
   margin-right: 20px;
-  color: white;
-  font-size: 20px;
+  color: black;
   font-family: "tipografia";
   opacity: 0;
   -webkit-animation-name: aparecer;
@@ -1998,7 +2082,6 @@ template {
       -ms-flex-direction: column;
           flex-direction: column;
   height: 20rem;
-  width: 84%;
   padding-left: 8px;
   padding-right: 8px;
   border: 3px solid black;
@@ -2097,6 +2180,79 @@ template {
   padding-right: 8px;
   border: 3px solid black;
   background-color: #D9D9D9;
+}
+
+.cambiarNombreCaja {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 84%;
+  padding-left: 8px;
+  padding-right: 8px;
+  height: 27rem;
+  background-color: #D9D9D9;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.cambiarNombreForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.cambiarNombreUsuario {
+  padding: 3px 5px;
+  padding-left: 70px;
+  width: 200px;
+  height: 35px;
+  background: url(../assets/img/svg/iconoPersona.svg) no-repeat;
+  background-size: 35px;
+  background-position: 15px center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 3px solid black;
+}
+
+.cambiarNombreEnviar {
+  border-radius: 20px;
+  width: 220px;
+  height: 50px;
+  background-color: transparent;
+  border: 3px solid black;
+  font-family: "tipografia";
+  font-size: 24px;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
 }
 
 /* ********* */

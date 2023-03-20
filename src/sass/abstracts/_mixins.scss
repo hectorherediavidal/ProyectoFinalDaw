@@ -2,90 +2,151 @@
 /* @MIXINS */
 /* ********* */
 @media only screen and (max-width: 768px) {
-    /* Ocultar página de ordenador */
-    .mitadDerecha{
-        display: none;
-        background-color: map-get($colores, azul);
-    }
-
-    .tituloMitadIzquierda{
-        display: none;
-    }
-
-    .footerPC{
-        display: none;
-    }
-    /* Mostrar página de móvil */
-    .loginCaja{
-        width: 84%;
-    }
-
-    .registroCaja{
-        width: 84%;
-    }
-
-    .crearCuenta{
-        width: 84%;
-    }
-
-    .mitadIzquierda{
-        width: 100%;
-        height: 100vh;
-        background-color: map-get($colores, azul);
-    }
-  
+  /* Ocultar página de ordenador */
+  .mitadDerecha {
+    display: none;
+    background-color: map-get($colores, azul);
   }
-  
-  /* Estilos para ordenadores */
-  @media only screen and (min-width: 769px) {
-    /* Ocultar página de móvil */
-    .loginFormulario {
-      width: 50%;
-    }
 
-    .loginCaja{
-        width: 65%;
-    }
-
-    .registroCaja{
-        width: 65%;
-    }
-    .crearCuenta{
-        width: 65%;
-    }
-
-    .excussImagenForm{
-        display: none;
-    }
-
-    
-
-    .footer{
-        display: none;
-    }
-
-    .header{
-        flex-direction: column;
-    }
-    /* Mostrar página de ordenador */
-    .mitadDerecha {
-      display: block;
-      width: 50%;
-      background-color: map-get($colores, azul);
-    }
-
-    .mitadIzquierda {
-        display: block;
-        width: 50%;
-        
-        background-color: map-get($colores, azulFormulario);
-      }
-
-    .tituloMitadIzquierda{
-        display: block;
-    }
-
-    .excussImagen{
-        margin-top: 100px;
-    }
+  .tituloMitadIzquierda {
+    display: none;
   }
+
+  .footerPC {
+    display: none;
+  }
+
+  .footerPC2 {
+    display: none;
+  }
+
+  .footerPC3 {
+    display: none;
+  }
+  /* Mostrar página de móvil */
+  .loginCaja {
+    width: 84%;
+  }
+
+  .registroCaja {
+    width: 84%;
+  }
+
+  .crearCuenta {
+    width: 84%;
+  }
+
+  .recordarContraCaja {
+    width: 84%;
+  }
+
+  .recordarContraConfirmacionCaja {
+    width: 84%;
+  }
+
+  .novedadesCaja{
+    width: 84%;
+  }
+
+  .mitadIzquierda {
+    width: 100%;
+    height: 100vh;
+    background-color: map-get($colores, azul);
+  }
+
+  .circuloFoto {
+    margin-top: -30px;
+  }
+
+  .tituloAplicacion {
+    font-size: 26px;
+  }
+
+  .subtituloAplicacion {
+    font-size: 23px;
+  }
+
+  .excusa {
+    font-size: 20px;
+  }
+}
+
+/* Estilos para ordenadores */
+@media only screen and (min-width: 769px) {
+  /* Ocultar página de móvil */
+  .loginFormulario {
+    width: 50%;
+  }
+
+  .loginCaja {
+    width: 65%;
+  }
+
+  .registroCaja {
+    width: 65%;
+  }
+  .crearCuenta {
+    width: 65%;
+  }
+
+  .recordarContraConfirmacionCaja {
+    width: 65%;
+  }
+
+  .recordarContraCaja {
+    width: 65%;
+  }
+
+  .novedadesCaja{
+    width: 65%;
+  }
+
+  .excussImagenForm {
+    display: none;
+  }
+
+  .footer {
+    display: none;
+  }
+
+  .header {
+    flex-direction: column;
+  }
+  /* Mostrar página de ordenador */
+  .mitadDerecha {
+    display: block;
+    width: 50%;
+    background-color: map-get($colores, azul);
+  }
+
+  .mitadIzquierda {
+    display: block;
+    width: 50%;
+
+    background-color: map-get($colores, azulFormulario);
+  }
+
+  .tituloMitadIzquierda {
+    display: block;
+  }
+
+  .excussImagen {
+    margin-top: 100px;
+  }
+
+  .circuloFoto {
+    margin-top: 40px;
+  }
+
+  .tituloAplicacion {
+    font-size: 50px;
+  }
+
+  .subtituloAplicacion {
+    font-size: 40px;
+  }
+
+  .excusa {
+    font-size: 38px;
+  }
+}

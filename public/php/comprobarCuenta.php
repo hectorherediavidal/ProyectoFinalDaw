@@ -1,14 +1,16 @@
 <?php
-// Conexión a la base de datos
+
 $host = "localhost";
 $user = "edib";
 $password = "edib";
 $bbdd = "proyectofinal";
 
+// Metodos post
 
 $correo = $_POST['loginCorreo'];
 $contraseña = $_POST['loginContraseña'];
 
+// Conexion a base de datos
 try{
     $conector = new PDO("mysql:host=$host;dbname=$bbdd",$user,$password);
 
@@ -18,7 +20,7 @@ try{
     echo "Error de conexion: " . $e->getMessage();
 }
 
-// Consultar la base de datos utilizando consultas preparadas para evitar inyección SQL
+// Consultar los datos de la base de datos
 $consulta = $conector->prepare("SELECT * FROM usuarios WHERE correo = :correo AND contrasena = :contrasena");
 $consulta->bindParam(':correo', $correo);
 $consulta->bindParam(':contrasena', $contraseña);
@@ -28,15 +30,15 @@ $consulta->execute();
 if ($consulta->rowCount() == 1) {
     $fila = $consulta->fetch(PDO::FETCH_ASSOC);
     $usuario=$fila['nombre'];
-  // El usuario inició sesión correctamente, puede redirigir a la página de inicio
+  // El usuario inicia sesion y va a su perfil
   session_start();
   $_SESSION['usuario'] = $usuario;
   $_SESSION['correo'] = $correo;
   header("Location: ./cuenta.php");
 
 } else {
-  // Las credenciales de inicio de sesión son incorrectas, mostrar un mensaje de error
-  echo "Correo electrónico o contraseña incorrectos";
+  // Error en los datos
+  header("Location: ./errorComprobacionCuenta.php");
 }
 
 $conector = null;

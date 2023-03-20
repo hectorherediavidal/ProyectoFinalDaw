@@ -7,7 +7,16 @@
     <link rel="stylesheet" href="../css/main.css" />
     <title>ExcuseParadise</title>
 </head>
-<body class="azulContainer">
+<body class="containerFormularios">
+  <section class="mitadIzquierda">
+    <a href="./login.html">
+      <img
+        src="../assets/img/svg/iconoFlecha.svg"
+        alt="icono perfil"
+        class="flechita"
+      />
+    </a>
+   <h4 class="tituloMitadIzquierda">Recuperar contraseña</h4>
     <header class="header">
       <picture class="pictureExcuss">
             <!-- Desktop -->
@@ -20,35 +29,82 @@
             />
     
             <!-- SEO -->
-            <img src="" class="excussImagen" alt="Descripción de la imagen" />
+            <img src="" class="excussImagenForm" alt="Descripción de la imagen" />
           </picture>
     </header>
     <main class="recordarContraMain">
        <section class="recordarContraCaja">
         <p class="recordarContraTitulo">Has olvidado tu contraseña?</p>
         <p class="recordarContraTexto">Escribe tu correo para que pueda enviarte un enlace para cambiar la contraseña.</p>
-        <form action="recordarContraConfirmacion.html" class="recordarContraFormulario" method="">
-            <input type="email" class="loginEmail" placeholder="CORREO">
+        <form action="../php/enviarContraseña.php" class="recordarContraFormulario" method="post">
+            <input type="email" class="loginEmail" placeholder="CORREO" name="recordarCorreo">
             <button type="submit" class="recordarContraEnviar" >ENVIAR</button>
          </form>
          <p class="recordarContraAyuda">¿Necesitas ayuda? <a href="" class="recordarContraContactame">Contáctame</a></p>
        </section>
         
     </main>
-
+  
     <footer class="footer">
         <nav class="footerIconos">
-            <a href="./terminos.html" target="_blank">
-              <img src="../assets/img/svg/persona.svg" alt="icono perfil" class="persona"/>
-            </a>
-            <a href="./terminos.html" target="_blank">
-              <img src="../assets/img/svg/new.svg" alt="icono novedades" class="new"/>
-           </a>
-           <a href="./terminos.html" target="_blank">
-              <img src="../assets/img/svg/contacto.svg" alt="icono contacto" class="contacto"/>
+          <a href="../../index.html">
+            <img
+              src="../assets/img/svg/persona.svg"
+              alt="icono perfil"
+              class="persona"
+            />
+          </a>
+          <a href="./novedades.html">
+            <img
+              src="../assets/img/svg/new.svg"
+              alt="icono novedades"
+              class="new"
+            />
+          </a>
+          <a href="./contacto.html">
+            <img
+              src="../assets/img/svg/contacto.svg"
+              alt="icono contacto"
+              class="contacto"
+            />
           </a>
           </nav>
     </footer>
-</div>
+    </section>
+
+    <!-- MITAD DERECHA -->
+
+
+<section class="mitadDerecha">
+  <h4 class="tituloMitadDerecha">ExcuseParadise</h4>
+  <header class="header">
+      <picture class="pictureExcuss">
+          <!-- Desktop -->
+          <source
+            srcset="../assets/img/smartphone/excuss1.webp 1x,
+            ../assets/img/smartphone/excuss1@2x.webp 2x,
+            ../assets/img/smartphone/excuss1@3x.webp 3x,
+             "
+            
+          />
+  
+          <!-- SEO -->
+          <img src="" class="excussImagen2" alt="Descripción de la imagen" />
+        </picture>
+  </header>
+  <main class="loginMain">
+      <p class="frase">“No me acuerdo de la contraseña”</p>
+
+      <p class="frase">“No tengo una cuenta”</p>
+
+      <p class="frase">¡Suena a excusa de las malas!</p>
+
+      <p class="frase">Tengo muchas excusas para ti, ¡Así que vamos allá!</p>
+     
+  </main>
+
+  
+</section>
+
 </body>
 </html>

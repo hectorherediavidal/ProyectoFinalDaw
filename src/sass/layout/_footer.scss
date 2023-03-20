@@ -2,67 +2,81 @@
 /* @FOOTER */
 /* ********* */
 
-.footer{
+.footer {
   position: fixed;
-    bottom: 0px;
-    width: 100%;
-    padding-top: 50px;
-  }
-  
-  .footerIconos {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  
-  .persona,
-  .new,
-  .contacto {
-    width: 40px;
-    height: 40px;
-    
-  }
-  
-.footerPC{
-  position: fixed;
-    top: -20px;
-    width: 100%;
-    padding-top: 50px;
+  bottom: 0px;
+  width: 100%;
+  padding-top: 50px;
 }
 
-.footerEnlaces{
-  
+.footerIconos {
   display: flex;
-    justify-content: center;
-    align-items: center;
+  justify-content: space-around;
+  align-items: center;
 }
 
- .inicioEnlace, .contactoEnlace{
+.persona,
+.new,
+.contacto {
+  width: 40px;
+  height: 40px;
+}
+
+.footerPC {
+  position: fixed;
+  top: -20px;
+  width: 80%;
+  padding-top: 50px;
+  margin-left: 45px;
+}
+
+.footerPC2 {
+  position: fixed;
+  top: -20px;
+  width: 80%;
+  padding-top: 50px;
+
+  margin-right: 111px;
+}
+
+.footerPC3 {
+  position: fixed;
+  top: -20px;
+  width: 80%;
+  padding-top: 50px;
+  margin-left: 156px;
+}
+
+.footerEnlaces {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inicioEnlace,
+.contactoEnlace {
   font-size: 20px;
-  font-family: 'tipografia';
+  font-family: "tipografia";
   text-decoration: none;
   color: white;
   list-style: none;
-margin-left: 18%;
-margin-right: 17.5%;
+  margin-left: 18%;
+  margin-right: 18%;
 }
 
-.novedadesEnlace{
-  margin-left: 40px;
+.novedadesEnlace {
   font-size: 20px;
-  font-family: 'tipografia';
+  font-family: "tipografia";
   text-decoration: none;
   color: white;
   list-style: none;
 }
-  // FOOTER DE LA APLICACION
+// FOOTER DE LA APLICACION
 
-  .footerPersona,
-  .footerNew,
-  .footerContacto {
-    width: 40px;
-    height: 40px;
-    filter: invert(100%);
-  }
-  
-  
+.footerPersona,
+.footerNew,
+.footerContacto {
+  width: 40px;
+  height: 40px;
+  filter: invert(100%);
+}

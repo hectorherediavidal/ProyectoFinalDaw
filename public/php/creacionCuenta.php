@@ -16,6 +16,7 @@
             height: 100vh;
             font-family: 'tipografia';
             font-size: 14px;
+            text-align: center;
         }
 
         a {
@@ -31,8 +32,8 @@
             margin-right: 30px;
             margin-top: 20px;
             padding: 20px;
-            width: 120px;
-            height: 10px;
+            width: 140px;
+            height: 20px;
             border-radius: 20px;
             border: 3px solid black;
             background-color: #D9D9D9;
@@ -44,19 +45,17 @@
     <picture class="pictureExcuss">
 
         <source srcset="../assets/img/smartphone/excuss1.webp 1x,
-                ../assets/img/smartphone/excuss1@2x.webp 2x,
-                ../assets/img/smartphone/excuss1@3x.webp 3x,
-                " />
+              ../assets/img/smartphone/excuss1@2x.webp 2x,
+              ../assets/img/smartphone/excuss1@3x.webp 3x,
+               " />
 
-
+        <!-- SEO -->
         <img src="" class="excussImagen" alt="Descripción de la imagen" />
     </picture>
+    <!-- Cuenta creada -->
+    <h1>La cuenta se ha creado correctamente</h1>
 
-    <!-- Error con los datos introducidos -->
-
-    <h1>El correo que has introducido ya esta registrado, por favor escribe un correo distinto</h1>
-
-    <a href="../paginasHTML/registro.html">Volver a registro</a>
+    <a href="../paginasHTML/login.html">Volver a inicio de sesion</a>
 </body>
 
 </html>
