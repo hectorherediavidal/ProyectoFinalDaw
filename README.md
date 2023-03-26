@@ -3,7 +3,7 @@
 
 
 
-# Enlace con la documentación para la instalación dle proyecto
+# Enlace con la documentación para la instalación del proyecto
 https://docs.google.com/document/d/1EW8r3V9l7U9iiiOOsWKeUMQdlJZtDdYDRQBll9s83JM/edit?usp=sharing
 
 # Enlace de Wetransfer para descargar la base de datos:
